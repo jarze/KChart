@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5D8DF85FA6E87E61F455DB /* Pods_KChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F83B5BF9FC6E5733B574BF /* Pods_KChart.framework */; };
+		8103273D204E6912006F3D88 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103273C204E6912006F3D88 /* Extension.swift */; };
+		8153B8FB20467E6B009877CA /* NYData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8153B8FA20467E6B009877CA /* NYData.swift */; };
 		819D84D3204522450067C68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84D2204522450067C68A /* AppDelegate.swift */; };
 		819D84D5204522450067C68A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84D4204522450067C68A /* ViewController.swift */; };
 		819D84D8204522450067C68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819D84D6204522450067C68A /* Main.storyboard */; };
 		819D84DA204522450067C68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819D84D9204522450067C68A /* Assets.xcassets */; };
 		819D84DD204522450067C68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819D84DB204522450067C68A /* LaunchScreen.storyboard */; };
+		819D84E9204544500067C68A /* NYKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84E8204544500067C68A /* NYKLineModel.swift */; };
+		819D84EC204549D60067C68A /* NYLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84EB204549D60067C68A /* NYLineStyle.swift */; };
+		819D84EF204552870067C68A /* NYKLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84EE204552870067C68A /* NYKLine.swift */; };
+		819D84F12045539F0067C68A /* NYCandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84F02045539F0067C68A /* NYCandle.swift */; };
+		819D84F4204557BB0067C68A /* DrawPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84F3204557BB0067C68A /* DrawPro.swift */; };
+		819D84F620456B780067C68A /* HSKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D84F520456B780067C68A /* HSKLineView.swift */; };
+		819D84FF20456D610067C68A /* timeLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84F820456D610067C68A /* timeLineForDay.json */; };
+		819D850020456D610067C68A /* kLineForMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84F920456D610067C68A /* kLineForMonth.json */; };
+		819D850120456D610067C68A /* kLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84FA20456D610067C68A /* kLineForDay.json */; };
+		819D850220456D610067C68A /* kLineForWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84FB20456D610067C68A /* kLineForWeek.json */; };
+		819D850320456D610067C68A /* timeLineForFiveday.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84FC20456D610067C68A /* timeLineForFiveday.json */; };
+		819D850420456D610067C68A /* FiveTrade.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84FD20456D610067C68A /* FiveTrade.json */; };
+		819D850520456D610067C68A /* SZ300033.json in Resources */ = {isa = PBXBuildFile; fileRef = 819D84FE20456D610067C68A /* SZ300033.json */; };
+		81A92E822046A82A008BD89C /* NYLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A92E812046A82A008BD89C /* NYLineView.swift */; };
+		81AC158C20463FF400F4D663 /* kLineF.json in Resources */ = {isa = PBXBuildFile; fileRef = 81AC158B20463FF400F4D663 /* kLineF.json */; };
+		81FA302B205133AB00775B4C /* SegmentMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA302A205133AB00775B4C /* SegmentMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C6262368061DDB540DBE446 /* Pods-KChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KChart/Pods-KChart.debug.xcconfig"; sourceTree = "<group>"; };
+		6E510719840EB83CF93F883B /* Pods-KChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-KChart/Pods-KChart.release.xcconfig"; sourceTree = "<group>"; };
+		8103273C204E6912006F3D88 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8153B8FA20467E6B009877CA /* NYData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYData.swift; sourceTree = "<group>"; };
 		819D84CF204522450067C68A /* KChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819D84D2204522450067C68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		819D84D4204522450067C68A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,23 @@
 		819D84D9204522450067C68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819D84DC204522450067C68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819D84DE204522450067C68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819D84E8204544500067C68A /* NYKLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYKLineModel.swift; sourceTree = "<group>"; };
+		819D84EB204549D60067C68A /* NYLineStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYLineStyle.swift; sourceTree = "<group>"; };
+		819D84EE204552870067C68A /* NYKLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYKLine.swift; sourceTree = "<group>"; };
+		819D84F02045539F0067C68A /* NYCandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCandle.swift; sourceTree = "<group>"; };
+		819D84F3204557BB0067C68A /* DrawPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPro.swift; sourceTree = "<group>"; };
+		819D84F520456B780067C68A /* HSKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineView.swift; sourceTree = "<group>"; };
+		819D84F820456D610067C68A /* timeLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForDay.json; sourceTree = "<group>"; };
+		819D84F920456D610067C68A /* kLineForMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForMonth.json; sourceTree = "<group>"; };
+		819D84FA20456D610067C68A /* kLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForDay.json; sourceTree = "<group>"; };
+		819D84FB20456D610067C68A /* kLineForWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForWeek.json; sourceTree = "<group>"; };
+		819D84FC20456D610067C68A /* timeLineForFiveday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForFiveday.json; sourceTree = "<group>"; };
+		819D84FD20456D610067C68A /* FiveTrade.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FiveTrade.json; sourceTree = "<group>"; };
+		819D84FE20456D610067C68A /* SZ300033.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SZ300033.json; sourceTree = "<group>"; };
+		81A92E812046A82A008BD89C /* NYLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYLineView.swift; sourceTree = "<group>"; };
+		81AC158B20463FF400F4D663 /* kLineF.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineF.json; sourceTree = "<group>"; };
+		81FA302A205133AB00775B4C /* SegmentMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentMenu.swift; sourceTree = "<group>"; };
+		83F83B5BF9FC6E5733B574BF /* Pods_KChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5D8DF85FA6E87E61F455DB /* Pods_KChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D78A3FB759B5EB8BD83883 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C6262368061DDB540DBE446 /* Pods-KChart.debug.xcconfig */,
+				6E510719840EB83CF93F883B /* Pods-KChart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		819D84C6204522450067C68A = {
 			isa = PBXGroup;
 			children = (
 				819D84D1204522450067C68A /* KChart */,
 				819D84D0204522450067C68A /* Products */,
+				67D78A3FB759B5EB8BD83883 /* Pods */,
+				F865DA4B01CEF687C2D662BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +112,82 @@
 				819D84D9204522450067C68A /* Assets.xcassets */,
 				819D84DB204522450067C68A /* LaunchScreen.storyboard */,
 				819D84DE204522450067C68A /* Info.plist */,
+				819D84F720456D610067C68A /* SampleData */,
+				819D84E4204522B80067C68A /* Chart */,
 			);
 			path = KChart;
+			sourceTree = "<group>";
+		};
+		819D84E4204522B80067C68A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				819D84F2204557A60067C68A /* Pro */,
+				819D84ED204552730067C68A /* View */,
+				819D84EA2045484F0067C68A /* Set */,
+				819D84E5204543E30067C68A /* Model */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		819D84E5204543E30067C68A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				819D84E8204544500067C68A /* NYKLineModel.swift */,
+				819D84F02045539F0067C68A /* NYCandle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		819D84EA2045484F0067C68A /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				819D84EB204549D60067C68A /* NYLineStyle.swift */,
+				8153B8FA20467E6B009877CA /* NYData.swift */,
+				8103273C204E6912006F3D88 /* Extension.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		819D84ED204552730067C68A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				819D84F520456B780067C68A /* HSKLineView.swift */,
+				819D84EE204552870067C68A /* NYKLine.swift */,
+				81A92E812046A82A008BD89C /* NYLineView.swift */,
+				81FA302A205133AB00775B4C /* SegmentMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		819D84F2204557A60067C68A /* Pro */ = {
+			isa = PBXGroup;
+			children = (
+				819D84F3204557BB0067C68A /* DrawPro.swift */,
+			);
+			path = Pro;
+			sourceTree = "<group>";
+		};
+		819D84F720456D610067C68A /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				81AC158B20463FF400F4D663 /* kLineF.json */,
+				819D84F820456D610067C68A /* timeLineForDay.json */,
+				819D84F920456D610067C68A /* kLineForMonth.json */,
+				819D84FA20456D610067C68A /* kLineForDay.json */,
+				819D84FB20456D610067C68A /* kLineForWeek.json */,
+				819D84FC20456D610067C68A /* timeLineForFiveday.json */,
+				819D84FD20456D610067C68A /* FiveTrade.json */,
+				819D84FE20456D610067C68A /* SZ300033.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		F865DA4B01CEF687C2D662BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83F83B5BF9FC6E5733B574BF /* Pods_KChart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819D84E1204522450067C68A /* Build configuration list for PBXNativeTarget "KChart" */;
 			buildPhases = (
+				0379D0F183E428744C4D4B75 /* [CP] Check Pods Manifest.lock */,
 				819D84CB204522450067C68A /* Sources */,
 				819D84CC204522450067C68A /* Frameworks */,
 				819D84CD204522450067C68A /* Resources */,
+				B3F853A8731557F98F351397 /* [CP] Embed Pods Frameworks */,
+				48D87F0601FD2812451C4D2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +252,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819D850420456D610067C68A /* FiveTrade.json in Resources */,
+				819D850120456D610067C68A /* kLineForDay.json in Resources */,
 				819D84DD204522450067C68A /* LaunchScreen.storyboard in Resources */,
 				819D84DA204522450067C68A /* Assets.xcassets in Resources */,
+				819D850020456D610067C68A /* kLineForMonth.json in Resources */,
+				81AC158C20463FF400F4D663 /* kLineF.json in Resources */,
+				819D850520456D610067C68A /* SZ300033.json in Resources */,
+				819D850220456D610067C68A /* kLineForWeek.json in Resources */,
+				819D850320456D610067C68A /* timeLineForFiveday.json in Resources */,
 				819D84D8204522450067C68A /* Main.storyboard in Resources */,
+				819D84FF20456D610067C68A /* timeLineForDay.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0379D0F183E428744C4D4B75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D87F0601FD2812451C4D2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KChart/Pods-KChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F853A8731557F98F351397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KChart/Pods-KChart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KChart/Pods-KChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		819D84CB204522450067C68A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819D84E9204544500067C68A /* NYKLineModel.swift in Sources */,
+				81A92E822046A82A008BD89C /* NYLineView.swift in Sources */,
+				8103273D204E6912006F3D88 /* Extension.swift in Sources */,
+				8153B8FB20467E6B009877CA /* NYData.swift in Sources */,
+				819D84EC204549D60067C68A /* NYLineStyle.swift in Sources */,
+				819D84F620456B780067C68A /* HSKLineView.swift in Sources */,
 				819D84D5204522450067C68A /* ViewController.swift in Sources */,
+				81FA302B205133AB00775B4C /* SegmentMenu.swift in Sources */,
+				819D84EF204552870067C68A /* NYKLine.swift in Sources */,
+				819D84F12045539F0067C68A /* NYCandle.swift in Sources */,
 				819D84D3204522450067C68A /* AppDelegate.swift in Sources */,
+				819D84F4204557BB0067C68A /* DrawPro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +475,14 @@
 		};
 		819D84E2204522450067C68A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6262368061DDB540DBE446 /* Pods-KChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXK7UF23NY;
 				INFOPLIST_FILE = KChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.jarze.KChart;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jarze.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -286,12 +491,14 @@
 		};
 		819D84E3204522450067C68A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E510719840EB83CF93F883B /* Pods-KChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXK7UF23NY;
 				INFOPLIST_FILE = KChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.jarze.KChart;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jarze.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

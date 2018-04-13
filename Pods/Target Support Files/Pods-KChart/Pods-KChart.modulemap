@@ -1,0 +1,6 @@
+framework module Pods_KChart {
+  umbrella header "Pods-KChart-umbrella.h"
+
+  export *
+  module * { export * }
+}

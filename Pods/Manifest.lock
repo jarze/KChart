@@ -1,0 +1,15 @@
+PODS:
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 42be93448b4ac8d6346847e2ac6bf8b9519bf5de
+
+COCOAPODS: 1.4.0
